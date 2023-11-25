@@ -21,7 +21,7 @@
       class="absolute -z-10 h-[2500px] w-[2500px] rounded-full bg-dark-blue -top-[1400px] left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-x-hidden scale-150 shrink-0"
     ></div>
     <div
-      class="absolute -z-20 h-[2500px] w-[2500px] rounded-full bg-off-white -top-[575px] left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-x-hidden scale-150 shrink-0"
+      class="absolute -z-20 h-[2500px] w-[2500px] rounded-full bg-off-white -top-[500px] left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-x-hidden scale-150 shrink-0"
     ></div>
     <div class="container mx-auto">
       <header class="bg-dark-blue text-white px-5 pt-6">
@@ -34,26 +34,31 @@
       </header>
       <section
         id="hero"
-        class="text-white pt-16 pb-4 flex flex-col items-center"
+        class="text-white pt-16 pb-4 flex flex-col items-center relative"
       >
         <h1 class="text-6xl font-serif max-w-md text-center mx-auto">
-          Data <span class="border-b-3 border-elec-green">tailored</span> to
+          Data
+          <span class="border-b-3 border-elec-green">tailored</span>
+          to
         </h1>
         <h1 class="text-6xl font-serif max-w-md text-center mx-auto">
           your needs.
         </h1>
         <a
           href="#"
-          class="bg-elec-green px-6 text-xs py-3 font-bold text-dark-blue mt-10"
+          class="bg-elec-green px-6 text-xs py-3 font-bold text-dark-blue mt-10 mb-32"
           >Learn more</a
         >
-        <div class="px-7 pt-16">
+        <div
+          class="px-6 xs:px-10 pt-16 absolute bottom-0 translate-y-1/2 max-w-lg"
+        >
           <img src="assets/images/image-hero.webp" alt="" class="" />
         </div>
       </section>
+
       <section id="features">
         <!-- features container -->
-        <div class="flex flex-col items-center mx-1 my-5 space-y-4">
+        <div class="flex flex-col items-center mx-1 my-5 space-y-4 mt-48">
           <!-- feature -->
           <div
             class="flex flex-col items-center justify-center md:flex-row md:px-16"
@@ -68,12 +73,13 @@
               <h3 class="font-serif text-xl my-4 md:mt-0">
                 Actionable insights
               </h3>
-              <p class="text-base">
+              <p class="text-base max-w-xl">
                 Optimize your products, improve customer satisfaction and stay
                 ahead of the competition with our product data analytics.
               </p>
             </div>
           </div>
+
           <!-- feature 2 -->
           <div
             class="flex flex-col items-center justify-center md:flex-row md:px-16"
@@ -87,7 +93,7 @@
               <h3 class="font-serif text-xl my-4 md:mt-0">
                 Data-driven decisions
               </h3>
-              <p class="text-base">
+              <p class="text-base max-w-xl">
                 Make data-driven decisions with our product data analytics. Our
                 AI-generated reports help you unlock insights hidden in your
                 product data.
@@ -105,7 +111,7 @@
             </div>
             <div class="text-center md:text-left">
               <h3 class="font-serif text-xl my-4 md:mt-0">Always affordable</h3>
-              <p class="text-base">
+              <p class="text-base max-w-xl">
                 Always affordable pricing that scales with your business. Get
                 top-quality product data analytics services without hidden costs
                 or unexpected fees.
@@ -114,9 +120,10 @@
           </div>
         </div>
       </section>
+
       <section id="cta" class="">
         <!-- cta container -->
-        <div class="relative w-full flex items-center justify-between px-14">
+        <!-- <div class="relative w-full flex items-center justify-between px-14">
           <img
             src="assets/images/image-founder.webp"
             alt=""
@@ -141,7 +148,7 @@
               >
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div
           class="relative flex flex-col items-center text-white text-center mt-24 my-6 mx-4"
