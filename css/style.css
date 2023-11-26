@@ -660,6 +660,26 @@ video {
   right: -6rem;
 }
 
+.bottom-56 {
+  bottom: 14rem;
+}
+
+.-bottom-56 {
+  bottom: -14rem;
+}
+
+.-bottom-64 {
+  bottom: -16rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.-bottom-72 {
+  bottom: -18rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
