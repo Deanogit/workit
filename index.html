@@ -23,6 +23,12 @@
     <div
       class="absolute -z-20 h-[2500px] w-[2500px] rounded-full bg-off-white -top-[500px] left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-x-hidden scale-150 shrink-0"
     ></div>
+    <div class="absolute hidden md:block top-16 -left-56">
+      <img src="assets/images/bg-pattern-1.svg" alt="" />
+    </div>
+    <div class="absolute hidden md:block top-56 -right-24">
+      <img src="assets/images/bg-pattern-2.svg" alt="" />
+    </div>
     <div class="container mx-auto">
       <header class="bg-dark-blue text-white px-5 pt-6">
         <nav class="flex items-center justify-between">
@@ -125,41 +131,18 @@
 
       <section id="cta" class="">
         <!-- cta container -->
-        <!-- <div class="relative w-full flex items-center justify-between px-14">
-          <img
-            src="assets/images/image-founder.webp"
-            alt=""
-            class="w-72 h-72"
-          />
-
-          <div
-            class="absolute -bottom-44 left-56 box bg-dark-blue flex flex-col text-white p-6 space-y-4"
-          >
-            <h2 class="text-3xl font-serif">Be the first to test</h2>
-            <p class="text-base px-2 pb-2 max-w-sm">
-              Hi, I'm Louis Graham, the founder of the company. Book a demo call
-              with me to become a beta tester for our app and kickstart your
-              company. Apply for access below and I’ll be in touch to schedule a
-              call.
-            </p>
-            <div class="">
-              <a
-                href="#"
-                class="bg-elec-green px-6 text-xs py-4 font-bold text-dark-blue mt-10"
-                >Apply for access</a
-              >
-            </div>
-          </div>
-        </div> -->
-
         <div
-          class="relative flex flex-col items-center text-white text-center mt-24 my-6 mx-4"
+          class="relative flex flex-col items-center text-white text-center mt-24 my-6 mx-4 md:flex-row md:mt-48 md:mb-60"
         >
           <div class="m-8">
-            <img src="assets/images/image-founder.webp" alt="" class="" />
+            <img
+              src="assets/images/image-founder.webp"
+              alt=""
+              class="sm:max-w-[281px] lg:max-w-[477px]"
+            />
           </div>
           <div
-            class="box bg-dark-blue -mt-20 px-4 pt-8 pb-10 flex flex-col space-y-6"
+            class="box bg-dark-blue -mt-20 px-4 pt-8 pb-10 flex flex-col space-y-6 md:absolute md:max-w-lg md:-bottom-44 md:left-52 md:text-left md:px-10 md:pb-16"
           >
             <h2 class="text-3xl font-serif">Be the first to test</h2>
             <p class="text-base px-2 pb-2">
@@ -181,7 +164,9 @@
     </div>
     <footer>
       <!-- footer container -->
-      <div class="flex flex-col items-center justify-center py-8 space-y-10">
+      <div
+        class="flex flex-col items-center justify-center py-12 space-y-10 md:mb-20"
+      >
         <img src="assets/images/logo-dark.svg" alt="" />
         <div class="flex space-x-8">
           <img src="assets/images/icon-facebook.svg" alt="" />
