@@ -15,57 +15,61 @@
     <title>Workit FEM Challenge</title>
   </head>
   <body
-    class="font-sans text-dark-blue min-h-screen relative bg-white overflow-x-hidden"
+    class="flex flex-col items-center justify-center font-sans text-dark-blue min-h-screen w-screen overflow-x-hidden bg-gradient-to-b from-dark-blue from-20% via-off-white via-20% to-white to-60%"
   >
-    <div
-      class="absolute -z-10 h-[2500px] w-[2500px] rounded-full bg-dark-blue -top-[1400px] left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-x-hidden scale-150 shrink-0"
-    ></div>
-    <div
-      class="absolute -z-20 h-[2500px] w-[2500px] rounded-full bg-off-white -top-[500px] left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-x-hidden scale-150 shrink-0"
-    ></div>
-    <div class="absolute hidden md:block top-16 -left-56">
-      <img src="assets/images/bg-pattern-1.svg" alt="" />
-    </div>
-    <div class="absolute hidden md:block top-56 -right-24">
-      <img src="assets/images/bg-pattern-2.svg" alt="" />
-    </div>
-    <div class="container mx-auto">
-      <header class="bg-dark-blue text-white px-5 pt-6">
+    <div class="mx-auto">
+      <header class="text-white px-5 pt-6 bg-dark-blue">
         <nav class="flex items-center justify-between">
           <img src="assets/images/logo-light.svg" alt="" />
-          <a href="#" class="border-b-3 border-elec-green text-xs font-bold"
+          <a
+            href="#"
+            class="underline decoration-elec-green decoration-[3px] underline-offset-[9px] text-xs font-bold"
             >Apply for Access</a
           >
         </nav>
       </header>
       <section
         id="hero"
-        class="text-white pt-16 pb-4 flex flex-col items-center relative"
+        class="text-white pt-16 pb-4 flex flex-col items-center relative bg-dark-blue"
       >
-        <h1 class="text-6xl font-serif max-w-md text-center mx-auto">
+        <h1 class="text-6xl font-serif text-center mx-auto">
           Data
-          <span class="border-b-3 border-elec-green">tailored</span>
+          <span
+            class="underline decoration-elec-green decoration-[3px] underline-offset-[6px]"
+            >tailored</span
+          >
           to
         </h1>
-        <h1 class="text-6xl font-serif max-w-md text-center mx-auto">
-          your needs.
-        </h1>
+        <h1 class="text-6xl font-serif text-center mx-auto">your needs.</h1>
         <a
           href="#"
           class="bg-elec-green px-6 text-xs py-3 font-bold text-dark-blue mt-10 mb-32"
           >Learn more</a
         >
         <div
-          class="px-6 xs:px-10 pt-16 absolute bottom-0 translate-y-1/2 max-w-lg"
+          class="px-6 lg:px-0 xs:px-10 pt-16 lg:pt-20 absolute bottom-0 translate-y-1/2 max-w-lg"
         >
           <img src="assets/images/image-hero.webp" alt="" class="" />
         </div>
+        <div
+          class="absolute w-full -bottom-10 flex items-center justify-center overflow-x-hidden lg:-bottom-24"
+        >
+          <div
+            class="h-[50px] lg:h-[200px] w-full -z-10 bg-dark-blue rounded-b-[70%] mt-30"
+          ></div>
+        </div>
+        <div class="absolute z-10 hidden md:block top-16 -left-56">
+          <img src="assets/images/bg-pattern-1.svg" alt="" />
+        </div>
+        <div class="absolute hidden md:block top-56 -right-24">
+          <img src="assets/images/bg-pattern-2.svg" alt="" />
+        </div>
       </section>
 
-      <section id="features">
+      <section id="features" class="relative bg-off-white">
         <!-- features container -->
         <div
-          class="flex flex-col lg:flex-row gap-16 items-center mx-1 my-5 mt-48"
+          class="flex flex-col lg:flex-row lg:p-16 gap-16 items-center mx-1 my-5 mt-48"
         >
           <!-- feature -->
           <div
@@ -127,12 +131,22 @@
             </div>
           </div>
         </div>
+        <div
+          class="absolute w-full -bottom-10 flex items-center justify-center overflow-x-hidden"
+        >
+          <div
+            class="h-[50px] w-full -z-10 bg-off-white rounded-b-[70%] mt-30"
+          ></div>
+        </div>
+        <!-- <div
+          class="absolute -bottom-[50px] h-[100px] w-screen scale-150 -z-10 bg-off-white rounded-b-[100%] overflow-x-hidden block"
+        ></div> -->
       </section>
 
       <section id="cta" class="">
         <!-- cta container -->
         <div
-          class="relative flex flex-col items-center text-white text-center mt-24 my-6 mx-4 md:flex-row md:mt-48 md:mb-60"
+          class="relative flex flex-col items-center text-white text-center mt-24 my-6 mx-4 md:flex-row md:mt-48 md:mb-60 lg:mb-80"
         >
           <div class="m-8">
             <img
@@ -142,10 +156,12 @@
             />
           </div>
           <div
-            class="box bg-dark-blue -mt-20 px-4 pt-8 pb-10 flex flex-col space-y-6 md:absolute md:max-w-lg md:-bottom-44 md:left-52 md:text-left md:px-10 md:pb-16"
+            class="box bg-dark-blue -mt-20 px-4 pt-8 pb-10 flex flex-col space-y-6 md:absolute md:max-w-lg md:-bottom-44 md:left-52 md:text-left md:px-10 md:pb-16 lg:left-[420px] lg:bottom-0 lg:max-w-2xl lg:px-10"
           >
-            <h2 class="text-3xl font-serif">Be the first to test</h2>
-            <p class="text-base px-2 pb-2">
+            <h2 class="text-3xl lg:text-5xl font-serif">
+              Be the first to test
+            </h2>
+            <p class="text-base lg:text-md px-2 pb-2 lg:pb-4">
               Hi, I'm Louis Graham, the founder of the company. Book a demo call
               with me to become a beta tester for our app and kickstart your
               company. Apply for access below and I’ll be in touch to schedule a
@@ -159,7 +175,9 @@
               >
             </div>
           </div>
-          <div class="absolute hidden md:block -bottom-72 right-8">
+          <div
+            class="absolute hidden md:block -bottom-72 right-8 lg:-bottom-20 lg:right-44"
+          >
             <img src="assets/images/bg-pattern-3.svg" alt="" />
           </div>
         </div>
